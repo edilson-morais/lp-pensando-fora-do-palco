@@ -5,7 +5,7 @@ import businessExecutives from "@/assets/business-executives.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-gradient-hero relative overflow-hidden">
+    <section className="min-h-screen relative overflow-hidden" style={{ backgroundImage: 'url(/lovable-uploads/33d595a1-e686-463a-ae9e-b9d98bf4eca9.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
       {/* Animated background particles */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 left-20 w-2 h-2 bg-primary rounded-full animate-pulse"></div>
