@@ -66,7 +66,7 @@ const HeroSection = () => {
                 <p className="text-muted-foreground">
                   nem falar bonito, não precisa virar blogueiro(a),
                 </p>
-                <p className="text-foreground font-medium">
+                <p className="text-blue-400 font-medium text-3xl">
                   eu te ajudo nisso.
                 </p>
               </div>
@@ -82,7 +82,7 @@ const HeroSection = () => {
             
             
             {/* Stats Cards */}
-            <div className="absolute bottom-0 right-0 space-y-4 w-80">
+            <div className="absolute top-1/2 -translate-y-1/2 right-0 space-y-4 w-80">
               <Card className="bg-card/90 backdrop-blur-sm border-border p-4">
                 <div className="flex items-center space-x-3">
                   <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl">
