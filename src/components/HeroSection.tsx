@@ -73,7 +73,13 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <StarBorder className="text-lg font-semibold">
+            <StarBorder 
+              as="a" 
+              href="https://api.whatsapp.com/send/?phone=554797083422&text=Ol%C3%A1,+vim+da+p%C3%A1gina+*Pensando+Fora+do+Palco*"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg font-semibold"
+            >
               QUERO SABER MAIS
             </StarBorder>
           </div>
