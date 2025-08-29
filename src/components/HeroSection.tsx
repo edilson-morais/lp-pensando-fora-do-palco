@@ -45,7 +45,7 @@ const HeroSection = () => {
             </div>
 
             <div className="space-y-6">
-              <h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground leading-tight">
+              <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground leading-tight">
                 A FORMA MAIS
                 <br />
                 <span className="bg-gradient-accent bg-clip-text text-transparent">
@@ -82,7 +82,7 @@ const HeroSection = () => {
             
             
             {/* Stats Cards */}
-            <div className="absolute -bottom-8 -left-8 right-8 space-y-4">
+            <div className="absolute bottom-0 right-0 space-y-4 w-80">
               <Card className="bg-card/90 backdrop-blur-sm border-border p-4">
                 <div className="flex items-center space-x-3">
                   <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl">
