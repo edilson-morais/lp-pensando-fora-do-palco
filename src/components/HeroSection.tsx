@@ -83,7 +83,7 @@ const HeroSection = () => {
             
             {/* Stats Cards */}
             <div className="relative top-20 space-y-4 w-[350px] max-w-[90%] ml-15 flex flex-col items-start">
-              <Card className="bg-card/90 backdrop-blur-sm border-border p-4">
+              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30">
                 <div className="flex items-center space-x-3">
                   <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl">
                     100%
@@ -95,7 +95,7 @@ const HeroSection = () => {
                 </div>
               </Card>
 
-              <Card className="bg-card/90 backdrop-blur-sm border-border p-4">
+              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30">
                 <div className="flex items-center space-x-3">
                   <div className="bg-accent text-accent-foreground rounded-lg p-2 font-bold text-xl">
                     +VENDAS
@@ -107,7 +107,7 @@ const HeroSection = () => {
                 </div>
               </Card>
 
-              <Card className="bg-card/90 backdrop-blur-sm border-border p-4">
+              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30">
                 <div className="flex items-center space-x-3">
                   <div className="bg-secondary text-secondary-foreground rounded-lg p-2">
                     <div className="w-6 h-6 border-2 border-current rounded-full flex items-center justify-center">
