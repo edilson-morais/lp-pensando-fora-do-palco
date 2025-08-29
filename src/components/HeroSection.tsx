@@ -3,7 +3,16 @@ import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import businessExecutives from "@/assets/business-executives.jpg";
 const HeroSection = () => {
-  return <section className="min-h-screen bg-gradient-hero relative overflow-hidden">
+  return <section className="min-h-screen relative overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: 'url(/lovable-uploads/09dc01c4-953e-4e5d-8176-7197cd4cc34e.png)'
+        }}
+      >
+        <div className="absolute inset-0 bg-black/40"></div>
+      </div>
       {/* Animated background particles */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 left-20 w-2 h-2 bg-primary rounded-full animate-pulse"></div>
@@ -13,7 +22,7 @@ const HeroSection = () => {
         <div className="absolute bottom-60 left-1/3 w-1 h-1 bg-primary rounded-full animate-pulse delay-300"></div>
       </div>
 
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 relative z-10">
         {/* Header */}
         <header className="flex justify-between items-center mb-12">
           <div className="flex items-center space-x-4">
