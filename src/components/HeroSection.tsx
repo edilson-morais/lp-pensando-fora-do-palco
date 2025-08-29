@@ -2,10 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import businessExecutives from "@/assets/business-executives.jpg";
-
 const HeroSection = () => {
-  return (
-    <section className="min-h-screen relative overflow-hidden" style={{ backgroundImage: 'url(/lovable-uploads/33d595a1-e686-463a-ae9e-b9d98bf4eca9.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+  return <section className="min-h-screen bg-gradient-hero relative overflow-hidden">
       {/* Animated background particles */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 left-20 w-2 h-2 bg-primary rounded-full animate-pulse"></div>
@@ -72,11 +70,7 @@ const HeroSection = () => {
 
           {/* Right Content */}
           <div className="relative">
-            <img 
-              src="/lovable-uploads/f1373e79-f8fa-4996-89ee-478bfd504959.png"
-              alt="Especialista em marca pessoal para empresários"
-              className="w-full h-auto rounded-lg shadow-elevated"
-            />
+            
             
             {/* Stats Cards */}
             <div className="absolute -bottom-8 -left-8 right-8 space-y-4">
@@ -121,8 +115,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
