@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
+import { StarBorder } from "@/components/ui/star-border";
 import businessExecutives from "@/assets/business-executives.jpg";
 const HeroSection = () => {
   return <section className="min-h-screen relative overflow-hidden">
@@ -72,9 +73,9 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow px-8 py-4 text-lg">
+            <StarBorder className="text-lg font-semibold">
               QUERO SABER MAIS
-            </Button>
+            </StarBorder>
           </div>
 
           {/* Right Content */}
