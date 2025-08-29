@@ -73,7 +73,7 @@ const HeroSection = () => {
           {/* Right Content */}
           <div className="relative">
             <img 
-              src={businessExecutives}
+              src="/lovable-uploads/f1373e79-f8fa-4996-89ee-478bfd504959.png"
               alt="Especialista em marca pessoal para empresários"
               className="w-full h-auto rounded-lg shadow-elevated"
             />
