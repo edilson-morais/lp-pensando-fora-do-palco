@@ -82,7 +82,7 @@ const HeroSection = () => {
             
             
             {/* Stats Cards */}
-            <div className="relative top-20 space-y-4 w-80 ml-15 flex flex-col items-start">
+            <div className="relative top-20 space-y-4 w-[350px] max-w-[90%] ml-15 flex flex-col items-start">
               <Card className="bg-card/90 backdrop-blur-sm border-border p-4">
                 <div className="flex items-center space-x-3">
                   <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl">
