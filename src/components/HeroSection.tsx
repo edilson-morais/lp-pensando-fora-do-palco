@@ -35,7 +35,7 @@ const HeroSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
           {/* Left Content */}
-          <div className="space-y-8">
+          <div className="space-y-8 ml-10">
             <div className="flex items-center space-x-4">
               <Badge variant="default" className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
                 MARCA PESSOAL
