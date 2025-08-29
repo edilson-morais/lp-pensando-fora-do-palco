@@ -20,7 +20,7 @@ const HeroSection = () => {
         <header className="flex justify-between items-center mb-12">
           <div className="flex items-center space-x-4">
             <h1 className="text-2xl font-bold text-foreground">
-              JORNADA <span className="text-primary">EQUITY</span>
+              PENSANDO FORA DO <span className="text-primary">PALCO</span>
             </h1>
           </div>
         </header>
@@ -30,34 +30,43 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="flex items-center space-x-4">
               <Badge variant="default" className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
-                2 DIAS
+                MARCA PESSOAL
               </Badge>
               <Badge variant="secondary" className="px-4 py-2 text-sm">
-                IMERSÃO PRESENCIAL
+                PORQUE A VIDA É UM SHOW
               </Badge>
             </div>
 
             <div className="space-y-6">
               <h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground leading-tight">
-                ACELERE 10 ANOS DE
+                A FORMA MAIS
                 <br />
                 <span className="bg-gradient-accent bg-clip-text text-transparent">
-                  RESULTADO EM APENAS
+                  RÁPIDA E INTELIGENTE
                 </span>
                 <br />
-                DOIS DIAS DE IMERSÃO
+                DE GERAR MAIS VENDAS
               </h2>
 
               <div className="space-y-4 text-lg text-muted-foreground">
-                <p>Descubra qual é o método validado</p>
-                <p>por trás dos ecossistemas de negócios</p>
-                <p className="text-primary font-semibold">bilionários e escale seu modelo</p>
-                <p className="text-accent font-semibold">de negócio na Nova Economia</p>
+                <p>A forma mais rápida e inteligente de gerar mais</p>
+                <p>transparência, credibilidade, confiança e vendas</p>
+                <p>em uma empresa, é quando o dono entende</p>
+                <p className="text-primary font-semibold">o valor da marca pessoal.</p>
+                <p className="mt-6 text-accent font-semibold">
+                  Sim, você pode ser autêntico, não precisa ser perfeito,
+                </p>
+                <p className="text-muted-foreground">
+                  nem falar bonito, não precisa virar blogueiro(a),
+                </p>
+                <p className="text-foreground font-medium">
+                  eu te ajudo nisso.
+                </p>
               </div>
             </div>
 
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow px-8 py-4 text-lg">
-              QUERO PARTICIPAR
+              QUERO SABER MAIS
             </Button>
           </div>
 
@@ -65,7 +74,7 @@ const HeroSection = () => {
           <div className="relative">
             <img 
               src={businessExecutives}
-              alt="Executivos de negócios profissionais"
+              alt="Especialista em marca pessoal para empresários"
               className="w-full h-auto rounded-lg shadow-elevated"
             />
             
@@ -74,11 +83,11 @@ const HeroSection = () => {
               <Card className="bg-card/90 backdrop-blur-sm border-border p-4">
                 <div className="flex items-center space-x-3">
                   <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl">
-                    +2<span className="text-sm">MIL</span>
+                    100%
                   </div>
                   <div className="text-sm">
-                    <p className="font-semibold text-card-foreground">EMPRESÁRIOS IMPACTADOS</p>
-                    <p className="text-muted-foreground">PELA JORNADA EQUITY</p>
+                    <p className="font-semibold text-card-foreground">AUTENTICIDADE</p>
+                    <p className="text-muted-foreground">SEM PRECISAR SER PERFEITO</p>
                   </div>
                 </div>
               </Card>
@@ -86,12 +95,11 @@ const HeroSection = () => {
               <Card className="bg-card/90 backdrop-blur-sm border-border p-4">
                 <div className="flex items-center space-x-3">
                   <div className="bg-accent text-accent-foreground rounded-lg p-2 font-bold text-xl">
-                    +1M
+                    +VENDAS
                   </div>
                   <div className="text-sm">
-                    <p className="font-semibold text-card-foreground">PARA EMPRESAS QUE</p>
-                    <p className="text-muted-foreground">FATURAM <span className="text-accent font-bold">MAIS DE 1 MILHÃO</span></p>
-                    <p className="text-muted-foreground">POR ANO</p>
+                    <p className="font-semibold text-card-foreground">TRANSPARÊNCIA</p>
+                    <p className="text-muted-foreground">CREDIBILIDADE E <span className="text-accent font-bold">CONFIANÇA</span></p>
                   </div>
                 </div>
               </Card>
@@ -104,9 +112,8 @@ const HeroSection = () => {
                     </div>
                   </div>
                   <div className="text-sm">
-                    <p className="font-semibold text-card-foreground">MÉTODO COMPROVADO</p>
-                    <p className="text-muted-foreground">PARA EMPRESAS DE TODOS</p>
-                    <p className="text-muted-foreground">SEGMENTOS DE MERCADO</p>
+                    <p className="font-semibold text-card-foreground">NÃO PRECISA VIRAR</p>
+                    <p className="text-muted-foreground">BLOGUEIRO(A), EU TE AJUDO</p>
                   </div>
                 </div>
               </Card>
