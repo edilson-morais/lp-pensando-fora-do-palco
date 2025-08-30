@@ -97,8 +97,8 @@ const HeroSection = () => {
               />
             </div>
             {/* Stats Cards */}
-            <div className="relative lg:top-20 space-y-4 w-full max-w-[400px] lg:w-[350px] lg:max-w-[90%] lg:ml-15 flex flex-col items-center lg:items-start z-10 cards-container">
-              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full card">
+            <div className="relative lg:top-20 space-y-4 w-full max-w-[400px] lg:w-[350px] lg:max-w-[90%] flex flex-col items-center lg:items-start z-10 cards-container mt-8 lg:mt-0 lg:ml-15">
+              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full max-w-sm lg:max-w-none card">
                 <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
                   <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl text-center">
                     100%
@@ -110,7 +110,7 @@ const HeroSection = () => {
                 </div>
               </Card>
 
-              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full card">
+              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full max-w-sm lg:max-w-none card">
                 <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
                   <div className="bg-accent text-accent-foreground rounded-lg p-2 font-bold text-xl text-center">
                     +VENDAS
@@ -122,7 +122,7 @@ const HeroSection = () => {
                 </div>
               </Card>
 
-              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full card">
+              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full max-w-sm lg:max-w-none card">
                 <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
                   <div className="bg-secondary text-secondary-foreground rounded-lg p-2 text-center">
                     <div className="w-6 h-6 border-2 border-current rounded-full flex items-center justify-center mx-auto">
