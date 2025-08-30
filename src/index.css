@@ -124,10 +124,10 @@ All colors MUST be HSL.
     }
   }
   
-  /* Desktop: expert photo com offset para a direita */
+  /* Desktop: expert photo com offset para a esquerda */
   @screen lg {
     .expert-photo {
-      transform: translateX(40px);
+      transform: translateX(-60px);
     }
   }
   
