@@ -112,21 +112,11 @@ All colors MUST be HSL.
 
 /* Custom card positioning styles */
 @layer components {
-  /* Mobile: cards centralizados */
-  .cards-container .card {
-    margin-left: 0;
-  }
-  
   /* Desktop: cards com offset para a esquerda */
   @screen lg {
     .cards-container .card {
       margin-left: -30px;
     }
-  }
-  
-  /* Mobile: expert photo centralizada */
-  .expert-photo {
-    transform: translateX(0);
   }
   
   /* Desktop: expert photo com offset para a direita */
