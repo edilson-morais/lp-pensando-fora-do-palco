@@ -127,7 +127,7 @@ All colors MUST be HSL.
   /* Desktop: expert photo com offset para a direita */
   @screen lg {
     .expert-photo {
-      transform: translateX(40px);
+      transform: translateX(80px);
     }
   }
   
