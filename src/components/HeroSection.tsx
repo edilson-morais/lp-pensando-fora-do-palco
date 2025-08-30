@@ -93,7 +93,7 @@ const HeroSection = () => {
               <img 
                 src="/lovable-uploads/ba74a1a7-7bd6-4800-8144-dbb252c92b9a.png"
                 alt="Expert"
-                className="w-80 lg:w-96 xl:w-[28rem] h-auto object-cover opacity-80 z-0"
+                className="w-80 lg:w-96 xl:w-[28rem] h-auto object-cover opacity-80 z-0 expert-photo"
               />
             </div>
             {/* Stats Cards */}

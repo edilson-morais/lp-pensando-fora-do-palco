@@ -115,4 +115,9 @@ All colors MUST be HSL.
   .cards-container .card {
     margin-left: -30px; /* ajusta o espaçamento */
   }
+  
+  /* Ajusta a posição da imagem do expert */
+  .expert-photo {
+    transform: translateX(40px); /* empurra para a direita */
+  }
 }
