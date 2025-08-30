@@ -87,27 +87,17 @@ const HeroSection = () => {
           </div>
 
           {/* Right Content */}
-          <div className="relative flex flex-col lg:flex-row justify-center lg:justify-start">
-            {/* Mobile: Expert Image first */}
-            <div className="flex justify-center mb-6 lg:hidden">
-              <img 
-                src="/lovable-uploads/ba74a1a7-7bd6-4800-8144-dbb252c92b9a.png"
-                alt="Expert"
-                className="w-64 h-auto object-cover opacity-90 rounded-lg"
-              />
-            </div>
-            
-            {/* Desktop: Expert Image - Behind cards */}
-            <div className="hidden lg:block absolute inset-0 flex justify-center lg:justify-end items-center lg:pr-8">
+          <div className="relative flex justify-center lg:justify-start">
+            {/* Expert Image - Behind cards but in front of background */}
+            <div className="absolute inset-0 flex justify-center lg:justify-end items-center lg:pr-8">
               <img 
                 src="/lovable-uploads/ba74a1a7-7bd6-4800-8144-dbb252c92b9a.png"
                 alt="Expert"
                 className="w-80 lg:w-96 xl:w-[28rem] h-auto object-cover opacity-80 z-0 expert-photo"
               />
             </div>
-            
             {/* Stats Cards */}
-            <div className="relative lg:top-20 space-y-4 w-full max-w-[400px] lg:w-[350px] lg:max-w-[90%] flex flex-col items-center lg:items-start z-10 cards-container lg:ml-15">
+            <div className="relative lg:top-20 space-y-4 w-full max-w-[400px] lg:w-[350px] lg:max-w-[90%] flex flex-col items-center lg:items-start z-10 cards-container mt-8 lg:mt-0 lg:ml-15">
               <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full max-w-sm lg:max-w-none card">
                 <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
                   <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl text-center">
