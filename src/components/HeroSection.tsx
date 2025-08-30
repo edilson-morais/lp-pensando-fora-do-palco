@@ -128,7 +128,7 @@ const HeroSection = () => {
           </div>
 
           {/* Column 3: Expert Image */}
-          <div className="flex justify-center items-center mt-8 lg:mt-0">
+          <div className="flex justify-center lg:justify-end items-center">
             <img 
               src="/lovable-uploads/ba74a1a7-7bd6-4800-8144-dbb252c92b9a.png"
               alt="Expert em marca pessoal"
