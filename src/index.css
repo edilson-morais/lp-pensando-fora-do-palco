@@ -124,15 +124,16 @@ All colors MUST be HSL.
     }
   }
   
-  /* Mobile: expert photo centralizada */
-  .expert-photo {
-    transform: translateX(0);
-  }
-  
   /* Desktop: expert photo com offset para a direita */
   @screen lg {
     .expert-photo {
       transform: translateX(40px);
     }
+  }
+  
+  /* Garantir que elementos importantes fiquem sempre na frente */
+  .mobile-priority {
+    position: relative;
+    z-index: 15;
   }
 }

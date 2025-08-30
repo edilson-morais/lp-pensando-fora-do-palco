@@ -73,13 +73,13 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center lg:justify-start relative z-20">
               <StarBorder 
                 as="a" 
                 href="https://api.whatsapp.com/send/?phone=554797083422&text=Ol%C3%A1,+vim+da+p%C3%A1gina+*Pensando+Fora+do+Palco*"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-lg font-semibold"
+                className="text-lg font-semibold relative z-20"
               >
                 QUERO SABER MAIS
               </StarBorder>
@@ -88,8 +88,8 @@ const HeroSection = () => {
 
           {/* Right Content */}
           <div className="relative flex justify-center lg:justify-start">
-            {/* Expert Image - Behind cards but in front of background */}
-            <div className="absolute inset-0 flex justify-center lg:justify-end items-center lg:pr-8">
+            {/* Expert Image - Hidden on mobile, visible on desktop */}
+            <div className="hidden lg:block absolute inset-0 flex justify-center lg:justify-end items-center lg:pr-8">
               <img 
                 src="/lovable-uploads/ba74a1a7-7bd6-4800-8144-dbb252c92b9a.png"
                 alt="Expert"
