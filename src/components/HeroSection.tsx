@@ -87,7 +87,7 @@ const HeroSection = () => {
           </div>
 
           {/* Column 2: Stats Cards */}
-          <div className="flex flex-col items-center lg:items-start justify-center space-y-4 mt-8 lg:mt-0">
+          <div className="flex flex-col items-center lg:items-start justify-center space-y-4 h-full">
             <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full max-w-sm card">
               <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
                 <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl text-center">
