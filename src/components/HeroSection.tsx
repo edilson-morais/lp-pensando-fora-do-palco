@@ -35,12 +35,12 @@ const HeroSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
           {/* Left Content */}
-          <div className="space-y-8 ml-10">
-            <div className="flex items-center space-x-4">
-              <Badge variant="default" className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium">
+          <div className="space-y-8 ml-0 lg:ml-10 text-center lg:text-left">
+            <div className="flex items-center justify-center lg:justify-start space-x-4 flex-wrap gap-2">
+              <Badge variant="default" className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium text-center">
                 MARCA PESSOAL
               </Badge>
-              <Badge variant="secondary" className="px-4 py-2 text-sm">
+              <Badge variant="secondary" className="px-4 py-2 text-sm text-center">
                 PORQUE A VIDA É UM SHOW
               </Badge>
             </div>
@@ -56,7 +56,7 @@ const HeroSection = () => {
                 DE GERAR MAIS VENDAS
               </h2>
 
-              <div className="space-y-4 text-lg text-muted-foreground">
+              <div className="space-y-4 text-base lg:text-lg text-muted-foreground">
                 <p>A forma mais rápida e inteligente de gerar mais</p>
                 <p>transparência, credibilidade, confiança e vendas</p>
                 <p>em uma empresa, é quando o dono entende</p>
@@ -67,32 +67,32 @@ const HeroSection = () => {
                 <p className="text-muted-foreground">
                   nem falar bonito, não precisa virar blogueiro(a),
                 </p>
-                <p className="text-blue-400 font-medium text-3xl">
+                <p className="text-blue-400 font-medium text-2xl lg:text-3xl">
                   eu te ajudo nisso.
                 </p>
               </div>
             </div>
 
-            <StarBorder 
-              as="a" 
-              href="https://api.whatsapp.com/send/?phone=554797083422&text=Ol%C3%A1,+vim+da+p%C3%A1gina+*Pensando+Fora+do+Palco*"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lg font-semibold"
-            >
-              QUERO SABER MAIS
-            </StarBorder>
+            <div className="flex justify-center lg:justify-start">
+              <StarBorder 
+                as="a" 
+                href="https://api.whatsapp.com/send/?phone=554797083422&text=Ol%C3%A1,+vim+da+p%C3%A1gina+*Pensando+Fora+do+Palco*"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg font-semibold"
+              >
+                QUERO SABER MAIS
+              </StarBorder>
+            </div>
           </div>
 
           {/* Right Content */}
-          <div className="relative">
-            
-            
+          <div className="relative flex justify-center lg:justify-start">
             {/* Stats Cards */}
-            <div className="relative top-20 space-y-4 w-[350px] max-w-[90%] ml-15 flex flex-col items-start">
-              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30">
-                <div className="flex items-center space-x-3">
-                  <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl">
+            <div className="relative lg:top-20 space-y-4 w-full max-w-[400px] lg:w-[350px] lg:max-w-[90%] lg:ml-15 flex flex-col items-center lg:items-start">
+              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full">
+                <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
+                  <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl text-center">
                     100%
                   </div>
                   <div className="text-sm">
@@ -102,9 +102,9 @@ const HeroSection = () => {
                 </div>
               </Card>
 
-              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30">
-                <div className="flex items-center space-x-3">
-                  <div className="bg-accent text-accent-foreground rounded-lg p-2 font-bold text-xl">
+              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full">
+                <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
+                  <div className="bg-accent text-accent-foreground rounded-lg p-2 font-bold text-xl text-center">
                     +VENDAS
                   </div>
                   <div className="text-sm">
@@ -114,10 +114,10 @@ const HeroSection = () => {
                 </div>
               </Card>
 
-              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30">
-                <div className="flex items-center space-x-3">
-                  <div className="bg-secondary text-secondary-foreground rounded-lg p-2">
-                    <div className="w-6 h-6 border-2 border-current rounded-full flex items-center justify-center">
+              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full">
+                <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
+                  <div className="bg-secondary text-secondary-foreground rounded-lg p-2 text-center">
+                    <div className="w-6 h-6 border-2 border-current rounded-full flex items-center justify-center mx-auto">
                       <div className="w-2 h-2 bg-current rounded-full"></div>
                     </div>
                   </div>
