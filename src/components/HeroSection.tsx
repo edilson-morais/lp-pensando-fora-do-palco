@@ -33,9 +33,9 @@ const HeroSection = () => {
           </div>
         </header>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
-          {/* Left Content */}
-          <div className="space-y-8 ml-0 lg:ml-10 text-center lg:text-left">
+        <div className="grid lg:grid-cols-3 gap-8 items-start min-h-[80vh]">
+          {/* Column 1: Text Content */}
+          <div className="space-y-8 text-center lg:text-left">
             <div className="flex items-center justify-center lg:justify-start space-x-4 flex-wrap gap-2">
               <Badge variant="default" className="bg-primary text-primary-foreground px-4 py-2 text-sm font-medium text-center">
                 MARCA PESSOAL
@@ -86,56 +86,54 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right Content */}
-          <div className="relative flex justify-center lg:justify-start">
-            {/* Expert Image - Hidden on mobile, visible on desktop */}
-            <div className="hidden lg:block absolute inset-0 flex justify-center lg:justify-end items-center lg:pr-8">
-              <img 
-                src="/lovable-uploads/ba74a1a7-7bd6-4800-8144-dbb252c92b9a.png"
-                alt="Expert"
-                className="w-80 lg:w-96 xl:w-[28rem] h-auto object-cover opacity-80 z-0 expert-photo"
-              />
-            </div>
-            {/* Stats Cards */}
-            <div className="relative lg:top-20 space-y-4 w-full max-w-[400px] lg:w-[350px] lg:max-w-[90%] flex flex-col items-center lg:items-start z-10 cards-container mt-8 lg:mt-0 lg:ml-15">
-              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full max-w-sm lg:max-w-none card">
-                <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
-                  <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl text-center">
-                    100%
-                  </div>
-                  <div className="text-sm">
-                    <p className="font-semibold text-card-foreground">AUTENTICIDADE</p>
-                    <p className="text-muted-foreground">SEM PRECISAR SER PERFEITO</p>
-                  </div>
+          {/* Column 2: Stats Cards */}
+          <div className="flex flex-col items-center lg:items-start justify-center space-y-4 mt-8 lg:mt-0">
+            <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full max-w-sm card">
+              <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
+                <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl text-center">
+                  100%
                 </div>
-              </Card>
+                <div className="text-sm">
+                  <p className="font-semibold text-card-foreground">AUTENTICIDADE</p>
+                  <p className="text-muted-foreground">SEM PRECISAR SER PERFEITO</p>
+                </div>
+              </div>
+            </Card>
 
-              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full max-w-sm lg:max-w-none card">
-                <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
-                  <div className="bg-accent text-accent-foreground rounded-lg p-2 font-bold text-xl text-center">
-                    +VENDAS
-                  </div>
-                  <div className="text-sm">
-                    <p className="font-semibold text-card-foreground">TRANSPARÊNCIA</p>
-                    <p className="text-muted-foreground">CREDIBILIDADE E <span className="text-accent font-bold">CONFIANÇA</span></p>
-                  </div>
+            <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full max-w-sm card">
+              <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
+                <div className="bg-accent text-accent-foreground rounded-lg p-2 font-bold text-xl text-center">
+                  +VENDAS
                 </div>
-              </Card>
+                <div className="text-sm">
+                  <p className="font-semibold text-card-foreground">TRANSPARÊNCIA</p>
+                  <p className="text-muted-foreground">CREDIBILIDADE E <span className="text-accent font-bold">CONFIANÇA</span></p>
+                </div>
+              </div>
+            </Card>
 
-              <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full max-w-sm lg:max-w-none card">
-                <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
-                  <div className="bg-secondary text-secondary-foreground rounded-lg p-2 text-center">
-                    <div className="w-6 h-6 border-2 border-current rounded-full flex items-center justify-center mx-auto">
-                      <div className="w-2 h-2 bg-current rounded-full"></div>
-                    </div>
-                  </div>
-                  <div className="text-sm">
-                    <p className="font-semibold text-card-foreground">NÃO PRECISA VIRAR</p>
-                    <p className="text-muted-foreground">BLOGUEIRO(A), EU TE AJUDO</p>
+            <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full max-w-sm card">
+              <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
+                <div className="bg-secondary text-secondary-foreground rounded-lg p-2 text-center">
+                  <div className="w-6 h-6 border-2 border-current rounded-full flex items-center justify-center mx-auto">
+                    <div className="w-2 h-2 bg-current rounded-full"></div>
                   </div>
                 </div>
-              </Card>
-            </div>
+                <div className="text-sm">
+                  <p className="font-semibold text-card-foreground">NÃO PRECISA VIRAR</p>
+                  <p className="text-muted-foreground">BLOGUEIRO(A), EU TE AJUDO</p>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          {/* Column 3: Expert Image */}
+          <div className="hidden lg:flex justify-center items-center">
+            <img 
+              src="/lovable-uploads/ba74a1a7-7bd6-4800-8144-dbb252c92b9a.png"
+              alt="Expert em marca pessoal"
+              className="w-full max-w-md h-auto object-cover opacity-90 rounded-lg expert-photo"
+            />
           </div>
         </div>
       </div>
