@@ -88,8 +88,16 @@ const HeroSection = () => {
 
           {/* Right Content */}
           <div className="relative flex justify-center lg:justify-start">
+            {/* Expert Image - Behind cards but in front of background */}
+            <div className="absolute inset-0 flex justify-center lg:justify-end items-center lg:pr-8">
+              <img 
+                src="/lovable-uploads/ba74a1a7-7bd6-4800-8144-dbb252c92b9a.png"
+                alt="Expert"
+                className="w-64 lg:w-80 h-auto object-cover opacity-80 z-0"
+              />
+            </div>
             {/* Stats Cards */}
-            <div className="relative lg:top-20 space-y-4 w-full max-w-[400px] lg:w-[350px] lg:max-w-[90%] lg:ml-15 flex flex-col items-center lg:items-start">
+            <div className="relative lg:top-20 space-y-4 w-full max-w-[400px] lg:w-[350px] lg:max-w-[90%] lg:ml-15 flex flex-col items-center lg:items-start z-10">
               <Card className="bg-card/90 backdrop-blur-sm border-border p-4 transition-all duration-300 ease-in-out hover:-translate-y-2.5 hover:shadow-lg hover:shadow-black/30 w-full">
                 <div className="flex items-center justify-center lg:justify-start space-x-3 text-center lg:text-left">
                   <div className="bg-primary text-primary-foreground rounded-lg p-2 font-bold text-xl text-center">
